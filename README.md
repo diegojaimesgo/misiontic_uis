@@ -1,5 +1,5 @@
 # misiontic_uis
-1er Ciclo MisiónTIC - UIS
+Ciclo 1 -  MisiónTIC - UIS
 
 Reto 1: Fundamentos del Lenguaje Python
 
