@@ -1,3 +1,42 @@
+"""
+Reto tema 3
+El aplicativo debe cumplir los siguientes requerimientos: 
+HISTORIA 1. Solicitar usuario y contraseña: Como usuario, requiero acceder a la aplicación a través del ingreso de usuario y contraseña con el fin de usar el programa.
+Se debe validar que las credenciales sean correctas y se debe permitir cuatro intentos máximos. Cada intento fallido debe indicarse con un mensaje "Credenciales incorrectas". 
+Luego de los cuatro intentos fallidos se debe presentar un mensaje "Has agotado la cantidad de intentos, por favor inicie de nuevo el programa" y se debe terminar el aplicativo. El usuario predefinido es "admin" y la contraseña es "MisionTic2021"
+HISTORIA 2. Presentar menú principal: Como usuario autenticado, requiero poder seleccionar una opción de una lista tipo menú para acceder a una de las funciones que ofrece el 
+programa. Al acceder a la aplicación con las credenciales correctas, se debe mostrar un menú con la siguiente estructura: 
+"
+------Menú de registro de personal-----
+1. Registrar ingreso de empleado.
+2. Ver empleados ingresados.
+3. Registrar ingreso de visitantes.
+4. Ver visitantes ingresados.
+0. Salir
+"
+Se debe dejar líneas en blanco arriba y abajo del menú para mejorar la presentación. Bajo el menú, debe presentarse un mensaje de orientación al usuario: 
+"Ingresa un número válido de opción del menú: ". El menú debe mostrarse hasta que el usuario digite una opción válida o determine salir. Luego de seleccionar una opción válida
+y acceder a alguna función, debe volver a presentar el menú. 
+Si se selecciona una opción incorrecta se debe presentar un mensaje al usuario: "Por favor ingresa una opción válida" y volver a presentar el menú. Al escoger la opción 0,
+se presentará un mensaje de despedida "¡Hasta luego!" y se terminará el programa.
+HISTORIA 3. Añadir empleados al registro: Como usuario autenticado, necesito registrar la información de los nombres de los empleados que ingresan a la sede de la compañía
+para llevar control de sus accesos.
+Al seleccionar la opción 1 se deben guardar el registro del empleado que ingresa, de manera iterativa, es decir, el usuario podrá registrar tantos empleados como se requieran,
+sin necesidad de ingresar cada vez al menú principal. Se dejará de ingresar empleados cuando el usuario ingrese el texto "SALIR". Se debe presentar un mensaje de orientación
+al usuario para ingresar la información de cada empleado "Ingresa el nombre del empleado (Si no deseas agregar más, digita SALIR): ".
+HISTORIA 4. Visualizar registro de empleados: Como usuario autenticado, necesito visualizar la lista de los empleados que se han registrado en la aplicación para llevar 
+control de sus accesos.
+Al seleccionar la opción 2, se debe visualizar los datos de los empleados que se registraron. Los datos de los empleados se deben mostrar separados únicamente por comas.
+HISTORIA 5. Añadir visitantes al registro: Como usuario autenticado, necesito registrar la información de los nombres de los visitantes que ingresan a la sede de la compañía
+para llevar control de sus accesos.
+Al seleccionar la opción 3, se deben guardar el registro de visitante quién ingresa, de manera iterativa, es decir, el usuario podrá registrar tantos visitantes como se
+requieran, sin necesidad de ingresar cada vez al menú principal. Se dejará de ingresar visitantes cuando el usuario ingrese el texto "SALIR". Se debe presentar un mensaje
+de orientación al usuario para ingresar la información de cada visitante "Ingresa el nombre del visitante (Si no deseas agregar más, digita SALIR): "
+HISTORIA 6. Visualizar registro de visitantes: Como usuario autenticado, necesito visualizar la lista de los visitantes que se han registrado en la aplicación para llevar
+control de sus accesos.
+Al seleccionar la opción 4, se debe visualizar los datos de los visitantes. Los datos de los visitantes se deben mostrar separados únicamente por comas.
+"""
+
 #Variables con los códigos de acceso:
 user = ("admin")
 clave = ("MisionTic2021")
