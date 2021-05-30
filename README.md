@@ -1,5 +1,5 @@
 # misiontic_uis
-Retos 1er Ciclo MisiónTIC - UIS
+1er Ciclo MisiónTIC - UIS
 
 Reto 1: Fundamentos del Lenguaje Python
 Reto 2: Estructuras de Control Condicional
